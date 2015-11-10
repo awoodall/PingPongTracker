@@ -1,0 +1,230 @@
+{
+  "matchData" : {
+    "00001" : {
+      "table" : 1,
+      "timeline" : {
+        "score1" : {
+          "player" : "austin",
+          "time" : "0:32"
+        }, 
+        "score2" : {
+          "player" : "blaise",
+          "time" : "1:01"
+        }, 
+        "score3" : {
+          "player" : "austin",
+          "time" : "1:21"
+        },
+        "score4" : {
+          "player" : "austin",
+          "time" : "1:42"
+        },
+        "score5" : {
+          "player" : "blaise",
+          "time" : "2:01"
+        },
+        "score6": {
+          "player" : "austin",
+          "time" : "2:32"
+        }, 
+        "score7" : {
+          "player" : "blaise",
+          "time" : "3:01"
+        }, 
+        "score8" : {
+          "player" : "austin",
+          "time" : "3:21"
+        },
+        "score9" : {
+          "player" : "austin",
+          "time" : "3:42"
+        },
+        "score10" : {
+          "player" : "blaise",
+          "time" : "4:01"
+        }
+      }
+    },
+    "00002" : {
+      "table" : 1,
+      "timeline" : {
+        "score1": {
+          "player" : "blaise",
+          "time" : "0:32"
+        }, 
+        "score2" : {
+          "player" : "blaise",
+          "time" : "1:01"
+        }, 
+        "score3" : {
+          "player" : "katy",
+          "time" : "1:21"
+        },
+        "score4" : {
+          "player" : "katy",
+          "time" : "1:42"
+        },
+        "score5" : {
+          "player" : "katy",
+          "time" : "2:01"
+        },
+        "score6": {
+          "player" : "katy",
+          "time" : "2:32"
+        }, 
+        "score7" : {
+          "player" : "blaise",
+          "time" : "3:01"
+        }, 
+        "score8" : {
+          "player" : "katy",
+          "time" : "3:21"
+        },
+        "score9" : {
+          "player" : "blaise",
+          "time" : "3:42"
+        },
+        "score10" : {
+          "player" : "blaise",
+          "time" : "4:01"
+        }
+      }
+    },
+    "00003" : {
+      "table" : 1,
+      "timeline" : {
+        "score1": {
+          "player" : "austin", 
+          "time" : "0:32"
+        }, 
+        "score2" : {
+          "player" : "joel", 
+          "time" : "1:01"
+        }, 
+        "score3" : {
+          "player" : "austin", 
+          "time" : "1:21"
+        },
+        "score4" : {
+          "player" : "joel", 
+          "time" : "1:42"
+        },
+        "score5" : {
+          "player" : "joel", 
+          "time" : "2:01"
+        },
+        "score6": {
+          "player" : "austin", 
+          "time" : "2:32"
+        }, 
+        "score7" : {
+          "player" : "joel", 
+          "time" : "3:01"
+        }, 
+        "score8" : {
+          "player" : "austin", 
+          "time" : "3:21"
+        },
+        "score9" : {
+          "player" : "austin", 
+          "time" : "3:42"
+        },
+        "score10" : {
+          "player" : "joel", 
+          "time" : "4:01"
+        }
+      }
+    }
+  },
+  "matches" : {
+    "00001" : {
+      "duration" : "21:42",
+      "p1" : "austin",
+      "p1Score" : 21,
+      "p2" : "blaise",
+      "p2Score" : 12
+    },
+    "00002" : {
+      "duration" : "18:36",
+      "p1" : "blaise",
+      "p1Score" : 21,
+      "p2" : "katy",
+      "p2Score" : 18
+    },
+    "00003" : {
+      "duration" : "16:32",
+      "p1" : "austin",
+      "p1Score" : 21,
+      "p2" : "joel",
+      "p2Score" : 16
+    }
+  },
+  "userData" : {
+    "austin" : {
+      "previousMatches" : {
+        "00001" : true,
+        "00003" : true
+      },
+      "previousScores" : {
+        "s1" : 80,
+        "s2" : 70,
+        "s3" : 62
+      },
+      "totalPlayed" : "42:21",
+      "totalScored" : 84
+    },
+    "blaise" : {
+      "previousMatches" : {
+        "00001" : true,
+        "00002" : true
+      },
+      "previousScores" : {
+        "s1" : 24,
+        "s2" : 42,
+        "s3" : 47
+      },
+      "totalPlayed" : "32:71",
+      "totalScored" : 65
+    },
+    "joel" : {
+      "previousMatches" : {
+        "00003" : true
+      },
+      "previousScores" : {
+        "s3" : 8
+      },
+      "totalPlayed" : "10:02",
+      "totalScored" : 12
+    },
+    "katy" : {
+      "previousMatches" : {
+        "00002" : true
+      },
+      "previousScores" : {
+        "s1" : 45,
+        "s2" : 55,
+        "s3" : 65
+      },
+      "totalPlayed" : "21:24",
+      "totalScored" : 24
+    }
+  },
+  "users" : {
+    "austin" : {
+      "playerScore" : 110,
+      "username" : "austin"
+    },
+    "blaise" : {
+      "playerScore" : 75,
+      "username" : "blaise"
+    },
+    "joel" : {
+      "playerScore" : 60,
+      "username" : "joel"
+    },
+    "katy" : {
+      "playerScore" : 45,
+      "username" : "katy"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.code-scroll {
+	height: 540px;
+	overflow: scroll;
+}
+#wrap {
+	margin-top: 50px;
+}
+.glyphicon-refresh {
+	animation:spin 1200ms linear infinite;
+}
+
+
+
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
