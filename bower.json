@@ -14,5 +14,14 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "pingPongTrackerApp"
+  "moduleName": "pingPongTrackerApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css",
+        "less/bootstrap.less"
+      ]
+    }
+  }
 }
